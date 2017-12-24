@@ -13,19 +13,18 @@
       "type": "dom",
       "props": {
         "yPercent": {
-          "0s": "-20",
+          "0s": "0",
           "0.9947104628778551s": {
-            "value": "0",
+            "value": "-20",
             "ease": "Power2.easeInOut"
           },
           "2.003087008549973s": {
-            "value": "-20",
+            "value": "0",
             "ease": "Power2.easeInOut"
           }
         }
       },
-      "label": "body/img",
-      "path": "/html[1]/body[1]/img[1]",
+      "label": "triangle",
       "id": "triangle"
     }]
   }]
