@@ -8,7 +8,7 @@
     "timelines": [{
       "type": "dom",
       "label": "logo",
-      "path": "div[1]/*[local-name()='svg'][1]"
+      "id": "logo"
     }, {
       "type": "dom",
       "props": {
@@ -21,7 +21,7 @@
         }
       },
       "label": "leftbox",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='path'][1]"
+      "id": "leftbox"
     }, {
       "type": "dom",
       "props": {
@@ -34,7 +34,7 @@
         }
       },
       "label": "rightbox",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='path'][2]"
+      "id": "rightbox"
     }, {
       "type": "dom",
       "props": {
@@ -50,7 +50,7 @@
         }
       },
       "label": "v",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][1]"
+      "id": "v"
     }, {
       "type": "dom",
       "props": {
@@ -94,7 +94,7 @@
         }
       },
       "label": "topB",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][2]"
+      "id": "topB"
     }, {
       "type": "dom",
       "props": {
@@ -138,7 +138,8 @@
         }
       },
       "label": "bottomB",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][3]"
+      "id": "bottomB"
+
     }, {
       "type": "dom",
       "props": {
@@ -154,7 +155,7 @@
         }
       },
       "label": "divider",
-      "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][4]"
+      "id": "divider"
     }]
   }]
 }
