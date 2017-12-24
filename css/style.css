@@ -8,3 +8,8 @@ body {
   padding: 4em;
   font-size: 3em;
 }
+
+#triangle {
+  display: block;
+  margin: 0 auto;
+}
