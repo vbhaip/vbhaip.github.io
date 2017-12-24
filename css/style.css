@@ -1,0 +1,10 @@
+body {
+  background: #d62729;
+}
+
+.opening h1{
+  color: #ffebeb;
+  text-align: center;
+  padding: 4em;
+  font-size: 3em;
+}
