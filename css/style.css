@@ -5,15 +5,26 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.opening h1{
+.opening{
   color: #ffebeb;
   text-align: center;
-  padding: 3em;
+
+}
+
+.opening h1{
+  padding-top: 3em;
   font-size: 4em;
+
+}
+
+.opening h2{
+  padding: 0em;
+  margin-top: 0em;
+  font-size: 3em;
 }
 
 #triangle {
   display: block;
   margin: 0 auto;
-  padding: 4em;
+  padding-top: 7em;
 }

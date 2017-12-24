@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <title>Vinay Bhaip</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://unpkg.com/spiritjs/dist/spirit.js">
-    </script>
 
-  </head>
+<head>
+  <title>Vinay Bhaip</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/spiritjs/dist/spirit.js">
+  </script>
 
-  <body>
+</head>
 
-    <section class="opening">
-      <h1>Hi, I'm Vinay!</h1>
-    </section>
-    <img src="images/triangle.svg" id="triangle"/>
+<body>
 
-    <script>
+  <section class="opening">
+    <h1>Hi, I'm Vinay!</h1>
+    <h2>I love
+    <span class="typer" id="typer" data-words="coding.,learning.,improving.,developing.,designing.,dreaming." data-colors="white" data-delay="100" data-deleteDelay="1200"></span><span class="cursor" data-owner="main"></span>
+    </h2>
+  </section>
+  <img src="images/triangle.svg" id="triangle" />
+
+  <script>
     spirit.loadAnimation({
-      path: "vb42website.json",
+      path: "animations/triangle.json",
       loop: true,
       delay: 0.5
     })
+  </script>
+</body>
 
-</script>
-  </body>
+<script src = "js/typer.js"></script>
 </html>
