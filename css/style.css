@@ -11,8 +11,13 @@ body {
 
 }
 
+#logo{
+  padding-top: 5em;
+
+}
+
 .opening h1{
-  padding-top: 3em;
+  padding-top: 1em;
   font-size: 4em;
 
 }
@@ -22,6 +27,7 @@ body {
   margin-top: 0em;
   font-size: 3em;
 }
+
 
 #triangle {
   display: block;
