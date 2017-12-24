@@ -3,13 +3,25 @@
   <head>
     <title>Vinay Bhaip</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/spiritjs/dist/spirit.js">
+    </script>
+
   </head>
 
   <body>
 
     <section class="opening">
-      <h1>Hi I'm Vinay!</h1>
+      <h1>Hi, I'm Vinay!</h1>
     </section>
     <img src="images/triangle.svg" id="triangle"/>
+
+    <script>
+    spirit.loadAnimation({
+      path: "vb42website.json",
+      loop: true,
+      delay: 0.5
+    })
+
+</script>
   </body>
 </html>

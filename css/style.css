@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 body {
   background: #d62729;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .opening h1{
   color: #ffebeb;
   text-align: center;
-  padding: 4em;
-  font-size: 3em;
+  padding: 3em;
+  font-size: 4em;
 }
 
 #triangle {
   display: block;
   margin: 0 auto;
+  padding: 4em;
 }
