@@ -8,17 +8,19 @@
   </script>
 
 </head>
-  
+
 <body>
   <section class="opening">
-    <iframe src="images/logo.svg" frameborder=0 id="logo"></iframe>
+    <object type="image/svg+xml" data="images/logo.svg" id="logo">
+      <!-- fallback image in CSS -->
+    </object>
     <h1>Hi, I'm Vinay!</h1>
-    <!--<h2>I love
+    <h2>I love
     <span class="typer" id="typer" data-words="coding.,learning.,improving.,developing.,designing.,dreaming." data-colors="white" data-delay="100" data-deleteDelay="1200"></span><span class="cursor" data-owner="main"></span>
-  </h2>-->
+  </h2>
 
   </section>
-  <img src="images/triangle.svg" id="triangle" />
+  <object type="image/svg+xml" data="images/triangle.svg" id="triangle">
 
   <script>
     spirit.loadAnimation({
@@ -36,5 +38,5 @@
   </script>
 </body>
 
-<!--<script src = "js/typer.js"></script>-->
+<script src = "js/typer.js"></script>
 </html>
