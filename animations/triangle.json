@@ -25,7 +25,7 @@
         }
       },
       "label": "triangle",
-      "path": "/html",
+      "path": "/html[1]/body[1]/img[1]",
       "id": "triangle"
     }]
   }]
