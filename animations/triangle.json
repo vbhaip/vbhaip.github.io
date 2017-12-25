@@ -14,11 +14,11 @@
       "props": {
         "yPercent": {
           "0s": "0",
-          "0.9947104628778551s": {
-            "value": "-20",
+          "1s": {
+            "value": "-15",
             "ease": "Power2.easeInOut"
           },
-          "2.003087008549973s": {
+          "2s": {
             "value": "0",
             "ease": "Power2.easeInOut"
           }

@@ -8,6 +8,7 @@
     "timelines": [{
       "type": "dom",
       "label": "logo",
+      "path": null,
       "id": "logo"
     }, {
       "type": "dom",
@@ -21,6 +22,7 @@
         }
       },
       "label": "leftbox",
+      "path": null,
       "id": "leftbox"
     }, {
       "type": "dom",
@@ -50,6 +52,7 @@
         }
       },
       "label": "v",
+      "path": null,
       "id": "v"
     }, {
       "type": "dom",
@@ -94,6 +97,7 @@
         }
       },
       "label": "topB",
+      "path": null,
       "id": "topB"
     }, {
       "type": "dom",
@@ -138,6 +142,7 @@
         }
       },
       "label": "bottomB",
+      "path": null,
       "id": "bottomB"
 
     }, {
@@ -155,6 +160,7 @@
         }
       },
       "label": "divider",
+      "path": null,
       "id": "divider"
     }]
   }]
