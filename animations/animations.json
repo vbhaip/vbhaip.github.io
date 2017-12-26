@@ -1,0 +1,130 @@
+{
+  "version_app": "0.13.0",
+  "version_extension": "1.3.7",
+  "version_runtime": "2.2.4",
+  "groups": [{
+    "root": {
+      "path": "/html[1]/body[1]",
+      "id": null
+    },
+    "name": "gear train",
+    "timeScale": 1,
+    "timelines": []
+  }, {
+    "root": {
+      "path": "/html[1]/body[1]",
+      "id": null
+    },
+    "name": "gears",
+    "timeScale": 1,
+    "timelines": [{
+      "type": "dom",
+      "props": {
+        "rotation": {
+          "0s": "0deg",
+          "2s": "360"
+        }
+      },
+      "label": "gear1",
+      "path": "/html[1]/body[1]/div[2]/div[1]/img[1]",
+      "id": "gear1",
+    }, {
+      "type": "dom",
+      "props": {
+        "rotation": {
+          "0s": "15",
+          "2s": "-345"
+        }
+      },
+      "label": "gear2",
+      "path": "/html[1]/body[1]/div[2]/div[1]/img[2]",
+      "id": "gear2",
+    }, {
+      "type": "dom",
+      "props": {
+        "rotation": {
+          "0s": "20",
+          "2s": "380"
+        }
+      },
+      "label": "gear3",
+      "path": "/html[1]/body[1]/div[2]/div[1]/img[3]",
+      "id": "gear3",
+    }]
+  }, {
+    "root": {
+      "path": "/html[1]/body[1]",
+      "id": null
+    },
+    "name": "arrows",
+    "timeScale": 1,
+    "timelines": [{
+      "type": "dom",
+      "props": {
+        "x": {
+          "0s": "0px",
+          "1s": {
+            "value": "10",
+            "ease": "Power1.easeInOut"
+          },
+          "1s": {
+            "value": "0",
+            "ease": "Power1.easeInOut"
+          }
+        }
+      },
+      "label": "rightarrow",
+      "path": "/html[1]/body[1]/div[3]/div[3]/img[1]",
+      "id": "rightarrow",
+    }, {
+      "type": "dom",
+      "props": {
+        "x": {
+          "0s": "0",
+          "1s": {
+            "value": "-10",
+            "ease": "Power1.easeInOut"
+          },
+          "1s": {
+            "value": "0",
+            "ease": "Power1.easeInOut"
+          }
+        }
+      },
+      "label": "leftarrow",
+      "path": "/html[1]/body[1]/div[3]/div[1]/img[1]",
+      "id": "leftarrow",
+    }, {
+      "type": "dom",
+      "props": {
+        "y": {
+          "0s": "0",
+          "1s": {
+            "value": "10",
+            "ease": "Power1.easeInOut"
+          },
+          "1s": {
+            "value": "0",
+            "ease": "Power1.easeInOut"
+          }
+        }
+      },
+      "label": "bottomarrow",
+      "path": "/html[1]/body[1]/section[1]/div[1]/img[1]",
+      "id": "bottomarrow"
+    }]
+  }, {
+    "root": {
+      "path": "/html[1]/body[1]",
+      "id": null
+    },
+    "name": "logo",
+    "timeScale": 1,
+    "timelines": [{
+      "type": "dom",
+      "label": "logo",
+      "path": "/html[1]/body[1]/div[3]/div[2]/img[1]",
+      "id": "logo"
+    }]
+  }]
+}
