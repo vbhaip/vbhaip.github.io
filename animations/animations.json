@@ -7,14 +7,6 @@
       "path": "/html[1]/body[1]",
       "id": null
     },
-    "name": "gear train",
-    "timeScale": 1,
-    "timelines": []
-  }, {
-    "root": {
-      "path": "/html[1]/body[1]",
-      "id": null
-    },
     "name": "gears",
     "timeScale": 1,
     "timelines": [{
@@ -25,9 +17,9 @@
           "2s": "360"
         }
       },
-      "label": "gear1",
-      "path": "/html[1]/body[1]/div[2]/div[1]/img[1]",
-      "id": "gear1",
+      "label": "#gear1",
+      "path": "/html[1]/body[1]/div[1]/div[1]/img[1]",
+      "id": "gear1"
     }, {
       "type": "dom",
       "props": {
@@ -36,9 +28,9 @@
           "2s": "-345"
         }
       },
-      "label": "gear2",
-      "path": "/html[1]/body[1]/div[2]/div[1]/img[2]",
-      "id": "gear2",
+      "label": "#gear2",
+      "path": "/html[1]/body[1]/div[1]/div[1]/img[2]",
+      "id": "gear2"
     }, {
       "type": "dom",
       "props": {
@@ -47,9 +39,9 @@
           "2s": "380"
         }
       },
-      "label": "gear3",
-      "path": "/html[1]/body[1]/div[2]/div[1]/img[3]",
-      "id": "gear3",
+      "label": "#gear3",
+      "path": "/html[1]/body[1]/div[1]/div[1]/img[3]",
+      "id": "gear3"
     }]
   }, {
     "root": {
@@ -64,52 +56,52 @@
         "x": {
           "0s": "0px",
           "1s": {
-            "value": "10",
+            "value": "-10",
             "ease": "Power1.easeInOut"
           },
-          "1s": {
+          "2s": {
             "value": "0",
             "ease": "Power1.easeInOut"
           }
         }
       },
-      "label": "rightarrow",
-      "path": "/html[1]/body[1]/div[3]/div[3]/img[1]",
-      "id": "rightarrow",
+      "label": "#leftarrow",
+      "path": "/html[1]/body[1]/div[2]/div[1]/img[1]",
+      "id": "leftarrow"
     }, {
       "type": "dom",
       "props": {
         "x": {
-          "0s": "0",
-          "1s": {
-            "value": "-10",
-            "ease": "Power1.easeInOut"
-          },
-          "1s": {
-            "value": "0",
-            "ease": "Power1.easeInOut"
-          }
-        }
-      },
-      "label": "leftarrow",
-      "path": "/html[1]/body[1]/div[3]/div[1]/img[1]",
-      "id": "leftarrow",
-    }, {
-      "type": "dom",
-      "props": {
-        "y": {
-          "0s": "0",
+          "0s": "0px",
           "1s": {
             "value": "10",
             "ease": "Power1.easeInOut"
           },
-          "1s": {
+          "2s": {
             "value": "0",
             "ease": "Power1.easeInOut"
           }
         }
       },
-      "label": "bottomarrow",
+      "label": "#rightarrow",
+      "path": "/html[1]/body[1]/div[2]/div[3]/img[1]",
+      "id": "rightarrow"
+    }, {
+      "type": "dom",
+      "props": {
+        "y": {
+          "0s": "0px",
+          "1s": {
+            "value": "10",
+            "ease": "Power1.easeInOut"
+          },
+          "2s": {
+            "value": "0",
+            "ease": "Power1.easeInOut"
+          }
+        }
+      },
+      "label": "#bottomarrow",
       "path": "/html[1]/body[1]/section[1]/div[1]/img[1]",
       "id": "bottomarrow"
     }]
@@ -118,13 +110,13 @@
       "path": "/html[1]/body[1]",
       "id": null
     },
-    "name": "logo",
+    "name": "menu",
     "timeScale": 1,
     "timelines": [{
       "type": "dom",
-      "label": "logo",
-      "path": "/html[1]/body[1]/div[3]/div[2]/img[1]",
-      "id": "logo"
+      "label": "#menu",
+      "path": "/html[1]/body[1]/div[1]/img[1]",
+      "id": "menu"
     }]
   }]
 }
