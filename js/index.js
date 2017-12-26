@@ -11,3 +11,9 @@ $(document).ready(function() {
 
 
 });
+
+
+$("#resume").hover(function(){
+  $(this).css("")
+
+})

@@ -4,6 +4,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   height: 100%;
   overflow: hidden;
+  font-weight: 300;
 }
 
 #top {
@@ -56,6 +57,7 @@ body {
   padding: 0em;
   margin-top: 5em;
   height: 21em;
+
 }
 
 #leftnav {
@@ -67,7 +69,8 @@ body {
 
 #education {
   float: left;
-  color: #B7444A
+  color: #B7444A;
+  font-weight: 300
 }
 
 #leftarrow {
@@ -94,6 +97,7 @@ body {
   display: inline-block;
   float: left;
   color: #B7444A;
+  font-weight: 300
 }
 
 #rightarrow {
@@ -118,7 +122,8 @@ body {
   color: #5D5D5D;
   width: 25%;
   font-size: 3em;
-  margin: 0.5em
+  margin: 0.5em;
+  font-weight: 300
 }
 
 #bottomnav {
@@ -131,10 +136,13 @@ body {
 #contact {
   color: #B7444A;
   font-size: 1.5em;
+  font-weight: 300
 }
 
 #bottomarrow {
   transform: rotate(270deg);
+  margin-top: 0em;
+  padding-top: 0em;
 }
 
 #github {
@@ -146,5 +154,6 @@ body {
   width: 25%;
   font-size: 3em;
   text-align: right;
-  margin: 0.5em
+  margin: 0.5em;
+  font-weight: 300
 }
