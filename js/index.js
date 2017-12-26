@@ -1,13 +1,11 @@
-import spirit from 'spiritjs'
-import { load } from 'spiritjs'
-
 $(document).ready(function() {
-  spirit.setup()
 
-
-  spirit.load('animations.json').then(groups => {
-  groups.at(0).construct().play() // play first group
-})
+  spirit.loadAnimation({
+    path: "animations/animations.json",
+    container: element, // the dom element that will contain the animation
+    loop: true,
+    delay: 0.5
+  })
 
 
 });
