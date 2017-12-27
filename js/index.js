@@ -13,14 +13,13 @@ $(document).ready(function() {
 
 });
 
-$("#menu").click(function(){
-
+function clickMenu(){
   spirit.load('animations/animationsv2.json').then(groups => {
     const menu = spirit.groups.get("menu");
 
     menu.construct().play();
   });
-});
+}
 
 /*
 $(window).resize(function(){

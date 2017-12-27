@@ -181,3 +181,12 @@ body {
   font-weight: 300;
   float: right;
 }
+
+a{
+  text-decoration: none;
+  color: #5D5D5D;
+}
+
+a:hover{
+  text-decoration: underline;
+}
