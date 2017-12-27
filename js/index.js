@@ -1,6 +1,7 @@
 $(document).ready(function() {
   spirit.setup();
 
+
   spirit.load('animations/animationsv2.json').then(groups => {
     const gears = spirit.groups.get("gears");
     const arrows = spirit.groups.get("arrows");
@@ -8,7 +9,11 @@ $(document).ready(function() {
 
     gears.construct().repeat(-1).play();
     arrows.construct().repeat(-1).play();
-    logo.construct().play();
+
+    setTimeout(function(){
+      logo.construct().play();
+    }, 2000);
+
   });
 
 });
@@ -20,6 +25,16 @@ function clickMenu(){
     menu.construct().play();
   });
 }
+
+function setLogoInPlace(){
+  spirit.load('animations/animationsv2.json').then(groups => {
+
+    const logo = spirit.groups.get("logo");
+
+    logo.construct().repeat(1).yoyo(true).play();
+  });
+}
+
 
 /*
 $(window).resize(function(){
