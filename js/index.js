@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  checkToggle();
   spirit.setup();
 
   spirit.load('animations/animationsv2.json').then(groups => {
@@ -23,7 +22,7 @@ $("#menu").click(function(){
   });
 });
 
-
+/*
 $(window).resize(function(){
 
   checkToggle();
@@ -34,20 +33,30 @@ $(window).resize(function(){
 
 function checkToggle(){
 
-  var h = $(window).height();
-  var w = $(window).width();
+  var h = window.innerHeight;
+  var w = window.innerWidth;
 
-
-  if(w < 680 || h < 580){
-    $("#leftnav").hide();
-    $("#rightnav").hide();
-    $("#bottomnav").hide();
+  console.log(w/h)
+  console.log("   ");
+  if(w/h >= 2.25 || h/w >= 2.25){
+    hide();
   }
   else{
-    $("#leftnav").show();
-    $("#rightnav").show();
-    $("#bottomnav").show();
+    show();
   }
 
 
 }
+
+function hide(){
+  $("#leftnav").hide();
+  $("#rightnav").hide();
+  $("#bottomnav").hide();
+}
+
+function show(){
+  $("#leftnav").show();
+  $("#rightnav").show();
+  $("#bottomnav").show();
+}
+*/
