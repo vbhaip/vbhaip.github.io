@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 body {
-  background: #2F2F2F;
+  background: #383f51;
   font-family: 'Oxygen', sans-serif;
   height: 100vh;
   overflow: hidden;
@@ -143,7 +143,7 @@ body {
   padding-top:7vh;
   height: 100%;
   align-items: center;
-  color: #5D5D5D;
+  color: #495063;
   font-size: 8vmin;
   width: 50%;
   font-weight: 300
@@ -173,7 +173,7 @@ body {
   padding-top:7vh;
   margin: 0em;
   height: 100%;
-  color: #5D5D5D;
+  color: #495063;
   width: 50%;
   font-size: 8vmin;
   text-align: right;
