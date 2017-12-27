@@ -1,39 +1,48 @@
-$(document).ready(function() {
-  spirit.setup();
+var menuClick = false;
 
+$(document).ready(function() {
 
   spirit.load('animations/animationsv2.json').then(groups => {
     const gears = spirit.groups.get("gears");
     const arrows = spirit.groups.get("arrows");
     const logo = spirit.groups.get("logo");
 
+    logo.construct().reverse(0);
+    logo.construct().pause(0);
+
     gears.construct().repeat(-1).play();
     arrows.construct().repeat(-1).play();
 
-    setTimeout(function(){
+    setTimeout(function() {
       logo.construct().play();
-    }, 2000);
+    }, 1000);
 
   });
 
 });
 
-function clickMenu(){
-  spirit.load('animations/animationsv2.json').then(groups => {
-    const menu = spirit.groups.get("menu");
-
+function clickMenu() {
+  const menu = spirit.groups.get("menu");
+  if (!menuClick) {
     menu.construct().play();
-  });
+    menuClick = true;
+  } else {
+    menu.construct().reverse(0);
+    menuClick = false;
+  }
 }
 
-function setLogoInPlace(){
+function setLogoInPlace() {
   spirit.load('animations/animationsv2.json').then(groups => {
 
     const logo = spirit.groups.get("logo");
+    logo.construct().reverse(0);
+    logo.construct().pause(0);
 
-    logo.construct().repeat(1).yoyo(true).play();
   });
 }
+
+
 
 
 /*
