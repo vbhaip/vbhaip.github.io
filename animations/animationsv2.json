@@ -122,14 +122,14 @@
       "props": {
         "rotation": {
           "0s": "0deg",
-          "0.5s": {
+          "0.3s": {
             "value": "45",
             "ease": "Power1.easeIn"
           }
         },
         "y": {
           "0s": "0px",
-          "0.5s": {
+          "0.3s": {
             "value": "155",
             "ease": "Power1.easeIn"
           }
@@ -143,7 +143,7 @@
       "props": {
         "scaleX": {
           "0s": "1",
-          "0.5s": {
+          "0.3s": {
             "value": "0",
             "ease": "Power2.easeIn"
           }
@@ -157,14 +157,14 @@
       "props": {
         "rotation": {
           "0s": "0deg",
-          "0.5s": {
+          "0.3s": {
             "value": "-45",
             "ease": "Power1.easeIn"
           }
         },
         "y": {
           "0s": "0px",
-          "0.5s": {
+          "0.3s": {
             "value": "-155",
             "ease": "Power1.easeIn"
           }

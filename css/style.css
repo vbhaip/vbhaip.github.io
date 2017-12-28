@@ -7,21 +7,22 @@ body {
   font-weight: 300;
 }
 
-#top {
+.top {
   position: relative;
-  margin-top: -2em;
-  margin-left: -2em;
-  margin-right: -2em;
+  margin-top: -5vh;
+  margin-left: -4vw;
+  margin-right: -4vw;
   height: 21vh;
 
 }
 
 #geartrain {
   position: relative;
+  display: inline-block;
   margin-left: 0em;
   margin-top: 0em;
   width: 50vw;
-  height: 20vh
+  height: 20vh;
 }
 
 #geartrain img{
@@ -50,13 +51,14 @@ body {
   transform: rotate(20deg);
 }
 
-#menu {
+.menu {
   position: relative;
-  margin-top: -14vh;
-  margin-right: 4vw;
+  display: inline-block;
+  margin-top: 8vh;
+  margin-right: 8vw;
   float: right;
   height: 10vmin;
-  width: 10vmin
+  width: 10vmin;
 }
 
 #maincontent {
@@ -74,6 +76,13 @@ body {
   height: 10vmin
 }
 
+.arrowtext{
+  color: #B7444A;
+  font-weight: 300;
+  font-size: 3.5vmin;
+  text-decoration: none;
+}
+
 #logo{
   width: 20vmin;
   height: 20vmin;
@@ -86,16 +95,14 @@ body {
   float: left;
   height: 100%;
   align-items: center;
+  text-decoration: none;
 }
 
 #about {
   float: left;
-  color: #B7444A;
-  font-weight: 300;
-  font-size: 3.5vmin
 }
 
-#leftarrow {
+.leftarrow {
   float: left;
 }
 
@@ -107,9 +114,9 @@ body {
   width: 100%;
 }
 
-#rightnav {
+.rightnav {
   display: flex;
-  float: right;
+  float: left;
   height: 100%;
   align-items: center;
 }
@@ -117,15 +124,13 @@ body {
 #projects {
   display: inline-block;
   float: left;
-  color: #B7444A;
-  font-weight: 300;
-  font-size: 3.5vmin;
 }
 
-#rightarrow {
-  display: inline-block;
+.rightarrow {
+  display: block;
   transform: rotate(180deg);
-  float: left
+  float: right;
+
 }
 
 #bottom {
@@ -156,13 +161,7 @@ body {
   width: 50%;
 }
 
-#contact {
-  color: #B7444A;
-  font-size: 3.5vmin;
-  font-weight: 300
-}
-
-#bottomarrow {
+.bottomarrow {
   transform: rotate(270deg);
   margin-top: 0em;
   padding-top: 0em;
@@ -182,11 +181,48 @@ body {
   float: right;
 }
 
-a{
+.largelink{
   text-decoration: none;
   color: #5D5D5D;
 }
 
-a:hover{
+.largelink:hover{
   text-decoration: underline;
+}
+
+#aboutmain{
+  display: flex;
+  height: 65vh;
+}
+
+#aboutlaptop{
+  display: inline-block;
+  width: 100vw;
+  height: 80vh
+}
+
+#aboutmaintext{
+  margin: 0em;
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+  margin-left: 4vw
+}
+
+#aboutmaintext h1{
+  display: inline-block;
+  color: #B7444A;
+  width: 50vw;
+  font-size: 6vmin
+}
+
+#aboutmaintext h2{
+  display: inline-block;
+  color: #D9D9D9;
+  align-items: center;
+  font-weight: 300;
+  font-size: 2vw;
+  width: 40vw;
+  justify-content: center;
+  line-height: 7vh;
 }

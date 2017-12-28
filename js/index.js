@@ -19,6 +19,9 @@ $(document).ready(function() {
 
   });
 
+  hoverArrow($("#leftnav"), $("#about"));
+  hoverArrow($("#rightnav"), $("#projects"));
+  hoverArrow($("#bottomnav"), $("#contact"));
 });
 
 function clickMenu() {
@@ -41,6 +44,20 @@ function setLogoInPlace() {
 
   });
 }
+
+function hoverArrow(nav, arrowtext) {
+
+  nav.hover(function(){
+    arrowtext.css("text-decoration", "underline");
+
+  }, function(){
+    arrowtext.css("text-decoration", "none");
+  });
+
+
+}
+
+
 
 
 
