@@ -7,7 +7,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://unpkg.com/spiritjs/dist/spirit.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script src="js/about.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.3/webcomponents.min.js"></script>
+  <script src="js/contact.js"></script>
 
 </head>
 
@@ -33,35 +34,17 @@
 
   </div>
 
-  <div id="aboutmain">
+  <div id="contactform">
 
-      <img src="images/laptop.svg" id="aboutlaptop" data-spirit-id="aboutlaptop"></img>
+    <form action="/form.php">
 
-      <div id="aboutmaintext">
-        <h1>About me</h1>
-        <h2>Hi, I'm Vinay! </h2>
-        <br />
-        <h2>I'm a sophomore at Thomas Jefferson High School for Science and Technology. I've loved programming ever since 4th grade, when I first created a Christmas tree in Java. I especially enjoy creating projects involving machine learning.</h2>
-      </div>
+    <input type="text" class="contact" id="contactname" placeholder="Name" />
+    <input type="text" class="contact" id="contactemail" placeholder="Email" />
+    <textarea type="text" class="contact" id="contactmessage" placeholder="What can I help you with?"></textarea>
+    <input type="submit" id="submit" value="Submit">
 
-    <a class="rightnav" href="/index.html">
-      <h2 class="arrowtext back">Back</h2>
-      <img src="images/arrow.svg" class="arrow rightarrow" data-spirit-id="rightarrow" class="arrow"></img>
-    </a>
+  </form>
 
-
-  </div>
-
-  <div class="menuselector">
-    <div class="menuitem">
-      <a href="/about.html">About</a>
-    </div>
-    <div class="menuitem">
-      <a href="/index.html">Home</a>
-    </div>
-    <div class="menuitem">
-      <a href="/projects.html">Projects</a>
-    </div>
   </div>
 
 </body>

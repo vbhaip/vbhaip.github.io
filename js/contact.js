@@ -9,7 +9,6 @@ $(document).ready(function() {
     arrows.construct().repeat(-1).play();
 
   });
-  hoverArrow($(".rightnav"), $(".back"));
 
 
 });
@@ -19,25 +18,8 @@ function clickMenu() {
   if (!menuClick) {
     menu.construct().play();
     menuClick = true;
-
-    $(".menuselector").css("display", "block");
   } else {
     menu.construct().reverse(0);
     menuClick = false;
-
-    $(".menuselector").css("display", "none");
   }
-}
-
-
-function hoverArrow(nav, arrowtext) {
-
-  nav.hover(function(){
-    arrowtext.css("text-decoration", "underline");
-
-  }, function(){
-    arrowtext.css("text-decoration", "none");
-  });
-
-
 }

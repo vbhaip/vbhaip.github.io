@@ -8,13 +8,18 @@
   <script src="https://unpkg.com/spiritjs/dist/spirit.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <script src="js/index.js"></script>
-  <script>spirit.setup()</script>
-  <script>setLogoInPlace();</script>
+  <script>
+    spirit.setup()
+  </script>
+  <script>
+    setLogoInPlace();
+  </script>
 </head>
 
 <body>
 
-  </div>
+
+
   <div class="top">
 
     <div id="geartrain">
@@ -51,7 +56,7 @@
 
     <a class="leftnav" href="/about.html">
       <img src="images/arrow.svg" class="leftarrow arrow" id="aboutarrow" data-spirit-id="leftarrow"></img>
-      <h2 class="arrowtext" id="about">About</h2>
+      <h2 class="arrowtext" id="about"><span>About me</span></h2>
     </a>
 
 
@@ -62,7 +67,8 @@
       </div>
       <br />
       <!-- SVG code for logo, to allow manipulation-->
-      <svg id="logo" data-spirit-id="logo" width="9em" height="9em" viewBox="0 0 268 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3;">
+      <svg onclick="openMenu();" id="logo" data-spirit-id="logo" width="9em" height="9em" viewBox="0 0 268 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3;">
           <g transform="matrix(1,0,0,1,-1497.45,-1586.11)">
               <g transform="matrix(0.555521,0,0,0.555521,1518.85,1620.69)">
                   <g transform="matrix(1,0,0,1,-50.002,-238.623)">
@@ -103,14 +109,27 @@
       <a class="largelink" href="//resume">Resume</a>
 
     </div>
-    <a href="/contact.html" class="bottomnav">
+    <!--<a href="/contact.html" class="bottomnav">
       <h2 class="arrowtext" id="contact">Contact</h2>
       <img src="images/arrow.svg" class="bottomarrow arrow" id="contactarrow" data-spirit-id="bottomarrow"></img>
-    </a>
+    </a>-->
 
     <div id="github">
       <a class="largelink" href="https://www.github.com/vb42" target="_blank">Github</a>
 
+    </div>
+  </div>
+
+
+  <div class="menuselector">
+    <div class="menuitem">
+      <a href="/about.html">About me</a>
+    </div>
+    <div class="menuitem">
+      <a href="/index.html">Home</a>
+    </div>
+    <div class="menuitem">
+      <a href="/projects.html">Projects</a>
     </div>
   </div>
 

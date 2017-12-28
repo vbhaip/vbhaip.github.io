@@ -29,9 +29,13 @@ function clickMenu() {
   if (!menuClick) {
     menu.construct().play();
     menuClick = true;
+
+    $(".menuselector").css("display", "block");
   } else {
     menu.construct().reverse(0);
     menuClick = false;
+
+    $(".menuselector").css("display", "none");
   }
 }
 

@@ -59,6 +59,7 @@ body {
   float: right;
   height: 10vmin;
   width: 10vmin;
+  z-index: 3;
 }
 
 #maincontent {
@@ -81,6 +82,8 @@ body {
   font-weight: 300;
   font-size: 3.5vmin;
   text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 #logo{
@@ -231,4 +234,69 @@ body {
 
 .back{
   text-decoration: none;
+}
+
+#contactform{
+  width: 55vw;
+  margin: 0 auto;
+
+
+}
+
+.contact{
+  display: block;
+  width: 50vw;
+  height: 10vh;
+  margin: 4vmin;
+  border: none;
+  border-radius: 1vmin;
+  background-color: #A4A4A4;
+  font-size: 3vmin;
+
+}
+
+.contact::placeholder{
+  color: black;
+  font-family: 'Oxygen';
+  padding-left: 1vw;
+  margin: 0vw;
+}
+
+
+
+#contactmessage{
+  height: 30vh;
+}
+
+
+.menuselector{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #495063;
+  overflow: auto;
+  z-index: 2;
+}
+
+.menuitem{
+  display: block;
+  height: 35vh;
+  width: 100vw;
+  background: #252932;
+  text-align: center;
+
+}
+
+.menuitem a{
+  display: inline-block;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-decoration: none;
+  color: rgb(93,93,93);
+  font-weight: 700;
+  font-size: 7vmin;
+
 }

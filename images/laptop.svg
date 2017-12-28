@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg
   width="10em"
-  height="10em"
+  height="100em"
   viewBox="0 0 237 153"
   version="1.1"
   xmlns="http://www.w3.org/2000/svg"
@@ -36,8 +36,8 @@
         <text id="A" x="40.407px" y="69.836px" style="font-family:'Oxygen-Regular', 'Oxygen';font-size:4.757px;fill:#b7444a;">A<tspan x="43.595px 46.57px 49.511px 52.205px " y="69.836px 69.836px 69.836px 69.836px ">bout</tspan>
         </text><path d="M40.833,59.993l-8.594,8.103l8.594,8.081" style="fill:none;stroke:#b7444a;stroke-width:1.75px;"/>
         <text x="177.928px" y="69.118px" style="font-family:'Oxygen-Regular', 'Oxygen';font-size:4.757px;fill:#b7444a;">P<tspan x="180.766px 182.543px 185.484px 186.574px 189.287px 191.657px " y="69.118px 69.118px 69.118px 69.118px 69.118px 69.118px ">roject</tspan>s</text><path d="M195.521,59.871l8.594,8.103l-8.594,8.081" style="fill:none;stroke:#b7444a;stroke-width:1.75px;"/>
-        <text x="109.319px" y="120.069px" style="font-family:'Oxygen-Regular', 'Oxygen';font-size:4.757px;fill:#b7444a;">C<tspan x="112.478px 115.419px 118.318px 120.049px 122.738px 125.108px " y="120.069px 120.069px 120.069px 120.069px 120.069px 120.069px ">ontact</tspan>
-        </text><path d="M126.707,123.79l-8.541,8.153l-8.519,-8.153" style="fill:none;stroke:#b7444a;stroke-width:1.75px;"/>
+        <!--<text x="109.319px" y="120.069px" style="font-family:'Oxygen-Regular', 'Oxygen';font-size:4.757px;fill:#b7444a;">C<tspan x="112.478px 115.419px 118.318px 120.049px 122.738px 125.108px " y="120.069px 120.069px 120.069px 120.069px 120.069px 120.069px ">ontact</tspan>
+      </text><path d="M126.707,123.79l-8.541,8.153l-8.519,-8.153" style="fill:none;stroke:#b7444a;stroke-width:1.75px;"/>-->
         <g><path d="M118.621,107.098l8.593,0l0,-6.829l0,-11.884l-5.411,0" style="fill:none;stroke:#d9d9d9;stroke-width:0.36px;stroke-linejoin:miter;stroke-miterlimit:3;"/><path d="M115.438,88.266l-5.411,0l0,18.832l8.594,0" style="fill:none;stroke:#d9d9d9;stroke-width:0.36px;stroke-linejoin:miter;stroke-miterlimit:3;"/><path
           d="M111.236,93.494l-0.309,0l4.137,11.777l0,-0.578l-3.828,-11.199Zm7.657,0l0.309,0l-3.288,9.358l-0.85,2.419l0,-0.578c0.016,-0.046 2.569,-7.512 3.829,-11.199Z"
           style="fill:#d9d9d9;fill-rule:nonzero;stroke:#d9d9d9;stroke-width:0.16px;stroke-linecap:butt;stroke-miterlimit:1.41421;"/><path d="M124.35,96.215l-3.501,-2.416l0,-0.302l1.315,0.936l2.504,1.782l-3.819,2.718l0,-0.302l3.501,-2.416Z" style="fill:#d9d9d9;fill-rule:nonzero;stroke:#d9d9d9;stroke-width:0.16px;stroke-linecap:butt;stroke-miterlimit:1.41421;"/><path d="M125.808,102.556l-4.959,-2.415l0,-0.302l5.41,2.717l-5.41,2.718l0,-0.302l4.959,-2.416Z" style="fill:#d9d9d9;fill-rule:nonzero;stroke:#d9d9d9;stroke-width:0.16px;stroke-linecap:butt;stroke-miterlimit:1.41421;"/><path d="M116.209,105.267l4.012,-11.77l0.309,0l-4.106,11.77l-0.215,0Z" style="fill:#d9d9d9;fill-rule:nonzero;stroke:#d9d9d9;stroke-width:0.16px;stroke-linecap:butt;stroke-miterlimit:1.41421;"/></g>
