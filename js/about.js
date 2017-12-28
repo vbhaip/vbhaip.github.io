@@ -20,12 +20,12 @@ function clickMenu() {
     menu.construct().play();
     menuClick = true;
 
-    $(".menuselector").css("display", "block");
+    $(".menuselector").css("height", "100%");
   } else {
     menu.construct().reverse(0);
     menuClick = false;
 
-    $(".menuselector").css("display", "none");
+    $(".menuselector").css("height", "0%");
   }
 }
 

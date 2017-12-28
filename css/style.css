@@ -60,6 +60,7 @@ body {
   height: 10vmin;
   width: 10vmin;
   z-index: 3;
+  cursor: pointer;
 }
 
 #maincontent {
@@ -270,15 +271,17 @@ body {
 
 
 .menuselector{
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 0%;
+  width: 100%;
   background: #495063;
-  overflow: auto;
+  overflow: hidden;
   z-index: 2;
+  transition: 0.5s;
+
 }
 
 .menuitem{
