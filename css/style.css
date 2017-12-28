@@ -303,3 +303,17 @@ body {
   font-size: 7vmin;
 
 }
+
+#projectsmain{
+  display: flex;
+  height: 65vh;
+}
+
+#development{
+  display: block;
+  color: #D9D9D9;
+  width: 100vw;
+  font-size: 6vmin;
+  font-weight: 700;
+  text-align: center;
+}
