@@ -19,9 +19,9 @@ $(document).ready(function() {
 
   });
 
-  hoverArrow($("#leftnav"), $("#about"));
-  hoverArrow($("#rightnav"), $("#projects"));
-  hoverArrow($("#bottomnav"), $("#contact"));
+  hoverArrow($(".leftnav"), $("#about"));
+  hoverArrow($(".rightnav"), $("#projects"));
+  hoverArrow($(".bottomnav"), $("#contact"));
 });
 
 function clickMenu() {

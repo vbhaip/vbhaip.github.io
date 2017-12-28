@@ -9,7 +9,7 @@ $(document).ready(function() {
     arrows.construct().repeat(-1).play();
 
   });
-
+  hoverArrot($(".rightnav"), $(".back"))
 
 
 });
@@ -23,4 +23,17 @@ function clickMenu() {
     menu.construct().reverse(0);
     menuClick = false;
   }
+}
+
+
+function hoverArrow(nav, arrowtext) {
+
+  nav.hover(function(){
+    arrowtext.css("text-decoration", "underline");
+
+  }, function(){
+    arrowtext.css("text-decoration", "none");
+  });
+
+
 }
