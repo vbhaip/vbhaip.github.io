@@ -313,6 +313,56 @@ a:hover{
   height: 65vh;
 }
 
+#projectslist{
+  width: 75vw;
+  margin-left: 4vw;
+  overflow: hidden;
+}
+
+.projectitem{
+  border: 0.5vmin solid #B7444A;
+  border-radius: 5vmin;
+  overflow: hidden;
+  margin-bottom: 4vh;
+
+}
+
+.projectlogo{
+  height: 20vmin;
+  width: 20vmin;
+  display: inline;
+  margin: auto;
+  float: left;
+  padding: 0.5vmin;
+}
+
+.projectmaintext{
+  display: inline;
+  margin: auto;
+  vertical-align: top;
+  float: left;
+  margin-left: 2vmin;
+  font-size: 5vmin;
+  width: 40vw;
+  color: #D9D9D9;
+  text-decoration: none;
+
+}
+
+.projectsubtext{
+  display: inline-block;
+  color: #D9D9D9;
+  font-weight: 300;
+  font-size: 2vmin;
+  width: 50vw;
+  line-height: 3.5vh;
+  float: left;
+  margin-left: 2vmin;
+  height: 10vmin;
+
+}
+
+
 #development{
   display: block;
   color: #D9D9D9;
