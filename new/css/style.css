@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+:root{
+	--main-bg-color: #232D4B;
+	--main-fg-color: #F4F0DB;
+	--main-accent-color: #E57200;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: var(--main-fg-color);
+	font-family: 'Playfair Display', serif;
+}
+
+.topskew{
+	margin-top: -45.25vh;
+	padding: 45.25vh 0;
+	transform: skew(0deg, 20.63deg);
+	background: var(--main-bg-color);
+	overflow: hidden;
+}
+
+.navbar{
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 10vh;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+#logo{
+	width: auto;
+	height: 10vh;
+}
+
+.navbar_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	height: 10vh;
+}
+.navbar_list li {
+	float: left;
+	padding: 0vh 3vw;
+	font-size: 1.8vmax;
+	color: var(--main-fg-color);
+	margin-top: 2.5vh;
+}
+
+
+
+.pfpdiv{
+	transform: skew(0deg, -20.63deg);
+	transform-origin: right bottom;
+	position: absolute;
+	bottom: -10vh;
+	right: 0;
+}
+
+#pfp {
+	width: auto;
+	height: 80vmin;
+}
+
+.frontmain {
+	margin-left: 1.5vw;
+	margin-top: -3vmax;
+}
+
+#introtext {
+	font-size: 6vmax;
+	padding-top: 0;
+	margin: 0;
+	margin-bottom: 0;
+	margin-top: 2vh;
+	
+}
+
+.summarytext {
+	font-size: 2.5vmax;
+}
+
+.summarytext p {
+	margin: 0;
+	margin-top: 1vh;
+}
+
+.summarytext ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 1vh;
+}
+
+.summarytext ul li {
+	margin-top: 2.5vh;
+}
+
+.summarytext ul mark {
+	color: var(--main-accent-color);
+	background: none;
+	font-weight: bold;
+
+}
