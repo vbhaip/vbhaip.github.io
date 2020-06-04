@@ -6,6 +6,10 @@
 	--main-accent-color: #E57200;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -50,6 +54,12 @@ body{
 	color: var(--main-fg-color);
 	margin-top: 2.5vh;
 	position: relative;
+	text-decoration: none;
+}
+
+.navbar_list li a{
+	color: var(--main-fg-color);
+	text-decoration: none;
 }
 
 .navbar_list li:before{
@@ -61,6 +71,7 @@ body{
 	bottom: -.1vmax;
 	border-bottom: 3px solid var(--main-accent-color);
 	transition: all 0.3s ease-in-out 0s;
+
 }
 
 .navbar_list li:hover:before{
@@ -91,7 +102,7 @@ body{
 .frontmain {
 	margin-left: 1.5vw;
 	margin-top: -10vmin;
-	height: 55vh;
+	height: 65vh;
 }
 
 #introtext {
@@ -146,7 +157,60 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 50vw;
+	
+	/*margin-left is half of width to center element*/
+	margin-left: -2vmax;
 	margin-bottom: 3vh;
 	animation: float 2s ease-in-out infinite;
+}
 
+
+#contact {
+	width: 100vw;
+	height: 100vh;
+	background: var(--main-fg-color);
+	text-align: center;
+	position: relative;
+
+}
+
+#contact_header_message {
+	font-size: 3.5vmax;	
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+
+}
+
+.form_element {
+	background: var(--main-fg-color);
+	border: 3px solid var(--main-accent-color);
+	border-radius: 2px;
+	width: 30vmax;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 3vh;
+	height: 4vh;
+	font-size: 2.5vh;
+}
+
+#contactform textarea {
+	height: 30vh;
+}
+
+#contactform button {
+	width: 10vh;
+	background: none;
+	border: none;
+	margin-top: 5vh;
+}
+
+#contact_footer{
+	padding-top: 4vh;
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	bottom: 0;
+}
+
+#source {
+	color: var(--main-accent-color);
 }
