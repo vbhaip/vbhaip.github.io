@@ -164,6 +164,74 @@ body{
 	animation: float 2s ease-in-out infinite;
 }
 
+/*experience section*/
+#experience{
+	height: 100vh;
+	background: var(--main-bg-color);
+	overflow: hidden;
+}
+
+#experience-top-skew{
+	margin-top: -45vh;
+	padding: 45vh 0;
+	transform: skew(0deg, 26deg);
+	background: var(--main-fg-color);
+	position: relative;
+	overflow: hidden;
+}
+
+#timeline{
+	transform: skew(0deg, -26deg);
+	position: absolute;
+	left: -2vw;
+	bottom: -20vh;
+	display: inline-block;
+}
+
+
+#timeline li{
+	padding-top: 1vh;
+	display: inline-block;
+	font-size: 1.5vmax;
+	width: 30vw;
+}
+#timeline li img {
+	float: left;
+	width: 5vw;
+	display:table-cell;
+    vertical-align: middle;
+	margin: 1vw;
+}
+#timeline li p {
+	overflow: hidden;
+	display:table-cell;
+    vertical-align: middle;
+}
+
+.link {
+	color: var(--main-accent-color);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#timeline li:nth-child(1){
+	margin-left: 15vw;
+	width: 60vw;
+}
+
+#timeline li:nth-child(2){
+	margin-left: 30vw;
+	width: 50vw;
+}
+
+#timeline li:nth-child(3){
+	margin-left: 48vw;
+	width: 40vw;
+}
+
+#timeline li:nth-child(4){
+	margin-left: 68vw;
+}
 
 #contact {
 	width: 100vw;
@@ -201,6 +269,7 @@ body{
 	background: none;
 	border: none;
 	margin-top: 5vh;
+	cursor: pointer;
 }
 
 #contact_footer{
