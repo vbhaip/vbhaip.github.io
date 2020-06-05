@@ -278,6 +278,77 @@ body{
 
 
 
+#projects {
+	height: 100vh;
+	width: 100vw;
+}
+
+#projects-header {
+	font-size: 4vmax;
+	text-align: center;
+	width: 100%;
+}
+
+.project-preview {
+	width: 15vmax;
+	height: 15vmax;
+	background: var(--main-accent-color);
+	clip-path: 
+		polygon(
+		0% 0%,
+		100% 0%,
+		100% 100%,
+		25% 100%,
+		0% 75%
+		);
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.project-description {
+	border: .3vmax solid var(--main-accent-color);
+	height: 14.4vmax;
+	width: 40vmax;
+	display: inline-block;
+	float: left;
+	margin-left: -.1vmax;
+	padding-left: 1vmax;
+}
+
+.project-shape {
+	height: 15vmax;
+	margin: 2vmax;
+	margin-top: 10vh;
+}
+
+.project-title {
+	font-size: 3vmax;
+	margin: 0;
+}
+
+.project-subtext{
+	font-size: 1.5vmax;
+	margin: 0;
+}
+
+.project-right {
+	float: right
+}
+
+#heliohex-svg {
+	height: 8vmax;
+	padding-top: 2vmax;
+}
+
+
+#spotify-logo {
+	height: 4vmax;
+}
+
+#fly-crossing {
+	height: 15vmax;
+}
 
 
 
