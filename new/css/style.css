@@ -233,6 +233,54 @@ body{
 	margin-left: 68vw;
 }
 
+#experience-bottom {
+	height: 55vh;
+}
+
+
+#languages,
+#libraries,
+#technologies {
+	margin-left: 2vw;
+	margin-top: -2vh;
+}
+
+
+.skill-text {
+	color: var(--main-fg-color);
+	font-size: 3vmax;
+}
+
+.skill-img {
+	width: 4.5vmax;
+	padding-right: 3.5vmax;
+}
+
+.skill-container{
+	margin-top: -4vh;
+}
+
+#languages {
+	margin-top: -25vh;
+}
+
+/*
+#libraries {
+	margin-left: 14vw;
+}
+
+#technologies {
+	margin-left: 28vw;
+}
+*/
+
+
+
+
+
+
+
+
 #contact {
 	width: 100vw;
 	height: 100vh;
