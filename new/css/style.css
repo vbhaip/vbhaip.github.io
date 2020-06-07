@@ -17,6 +17,12 @@ body{
 	font-family: 'Playfair Display', serif;
 }
 
+@keyframes fade-in{
+	0% {opacity:0}
+	100% {opacity:1}
+}
+	
+
 .topskew{
 	margin-top: -45vh;
 	padding: 45vh 0;
@@ -33,11 +39,12 @@ body{
 	margin: 0;
 	padding: 0;
 	z-index: 1;
+
 }
 
 #logo{
 	width: auto;
-	height: 12vmin;
+	height: 14vmin;
 }
 
 .navbar_list {
@@ -97,12 +104,17 @@ body{
 #pfp {
 	width: auto;
 	height: 80vmin;
+	opacity: 0;
+	animation: fade-in 1s ease-in-out forwards 0s;
 }
 
 .frontmain {
 	margin-left: 1.5vw;
 	margin-top: -10vmin;
 	height: 65vh;
+	opacity: 0;
+	animation: fade-in 1s ease-in-out forwards 2s;
+
 }
 
 #introtext {
@@ -111,7 +123,6 @@ body{
 	margin: 0;
 	margin-bottom: 0;
 	margin-top: 2vh;
-	
 }
 
 .summarytext {
@@ -162,6 +173,14 @@ body{
 	margin-left: -2vmax;
 	margin-bottom: 3vh;
 	animation: float 2s ease-in-out infinite;
+	
+
+}
+
+#arrow-wrapper {
+	opacity: 0;
+	animation: fade-in 1s ease-in-out forwards 4s;
+
 }
 
 /*experience section*/
@@ -184,7 +203,7 @@ body{
 	transform: skew(0deg, -26deg);
 	position: absolute;
 	left: -2vw;
-	bottom: -20vh;
+	bottom: -17vh;
 	display: inline-block;
 }
 
@@ -402,3 +421,10 @@ body{
 #source {
 	color: var(--main-accent-color);
 }
+
+
+
+
+
+
+

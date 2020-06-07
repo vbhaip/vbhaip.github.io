@@ -6,10 +6,11 @@
   <!--<link rel="icon" href="/favicon.ico" />-->
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.0/dist/simpleParallax.min.js"></script>
 </head>
 <body>
 	<nav class="navbar">
-		<img id="logo" src="images/logo.svg"></img>
+		<object id="logo" type="image/svg+xml" data="images/logo_animated.svg"></object>
 		<ul class="navbar_list">
 			<li>
 				<a href="#experience">Experience</a>
@@ -41,7 +42,9 @@
 				<li><mark class="emphasis">finding</mark> ways to give back</li>
 			</ul>
 		</div>
-		<a href="#experience"><img id="arrow" src="images/arrow.svg"></img></a>
+		<div id="arrow-wrapper">
+			<a href="#experience"><img id="arrow" src="images/arrow.svg"></img></a>
+		</div>
 	</div>
 
 	<div id="experience">
@@ -93,7 +96,7 @@
 				<div class="project-preview">
 					<svg id="heliohex-svg" width="100%" height="100%" viewBox="0 0 204 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 						<g>
-						<path id="bruv" d="M61.07,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff1800;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M61.07,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff1800;stroke:#000;stroke-width:0.43px;"/>
 						<path d="M81.355,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#fffd00;stroke:#000;stroke-width:0.43px;"/>
 						<path d="M101.639,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff8200;stroke:#000;stroke-width:0.43px;"/>
 						<path d="M121.924,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#84ff00;stroke:#000;stroke-width:0.43px;"/>
@@ -147,4 +150,5 @@
 		</form>
 		<p id="contact_footer">Made with &hearts; | Vinay Bhaip | <a href="https://github.com/vbhaip/vbhaip.github.io" id="source">Source</a></p>
 	</div>
+	<script src="js/main.js"></script>
 </body>
