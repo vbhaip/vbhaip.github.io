@@ -2,140 +2,153 @@
 <html lang='en'>
 
 <head>
-  <title>Vinay Bhaip | Home</title>
-  <link rel="icon" href="/favicon.ico" />
+  <title>Vinay Bhaip</title>
+  <!--<link rel="icon" href="/favicon.ico" />-->
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://unpkg.com/spiritjs/dist/spirit.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script src="js/index.js"></script>
-  <script>
-    spirit.setup()
-  </script>
-  <script>
-    setLogoInPlace();
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.0/dist/simpleParallax.min.js"></script>
 </head>
-
 <body>
+	<nav class="navbar">
+		<object id="logo" type="image/svg+xml" data="images/logo_animated.svg"></object>
+		<ul class="navbar_list">
+			<li>
+				<a href="#experience">Experience</a>
+			</li>
+			<li>
+				<a href="#projects">Projects</a>
+			</li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+			<li>
+				<a href="resume.pdf">Resume</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="topskew">
+		<div class="pfpdiv">
+			<img id="pfp" src="images/me.png"></img>
+		</div>
+	</div>
+	<div class="frontmain">
+		<p id="introtext">Hi, I'm Vinay!</p>
+		<div class="summarytext">
+			<p> I am</p>
+			<ul>
+				<li><mark class="emphasis">studying</mark> at UVA as an Echols Scholar</li>
+				<li><mark class="emphasis">majoring</mark> in Computer Science</li>
+				<li><mark class="emphasis">focusing</mark> on machine learning research</li>
+				<li><mark class="emphasis">finding</mark> ways to give back</li>
+			</ul>
+		</div>
+		<div id="arrow-wrapper">
+			<a href="#experience"><img id="arrow" src="images/arrow.svg"></img></a>
+		</div>
+	</div>
+
+	<div id="experience">
+		<div id="experience-top-skew">
+			<ul id="timeline">
+				<li><img src="images/p2a.png"></img><p><b>2018</b>—<b>Phone2Action Civic Tech Fellow</b>—Released an NLP chatbot to grassroots clients, building off <a class="link" href="https://devpost.com/software/united-politics">award-winning</a> hackathon project and wrote machine learning <a class="link" href="https://medium.com/phone2action-engineering/understanding-natural-language-processing-through-recurrent-neural-networks-fe6a8448b43a">post</a></p></li>
+				<li><img src="images/hhmi.png"></img><p><b>2019</b>—<b>Janelia Research Campus Jayaraman Lab Intern</b>—<a class="link" href="https://github.com/vbhaip/gap-crossing-research">Developed</a> a machine learning system to analyze decision-making processes in the <i>D. melanogaster</i> brain</p></li>
+				<li><img src="images/tj.png"></img><p><b>2020</b>—<b>Machine Learning Club Captain</b>—<a class="link" href="https://tjmachinelearning.com/">Lectured</a> weekly to fifty peers on theory behind machine learning</p></li>
+				<li><img src="images/hhmi.png"></img><p><b>Present</b>—<b>Janelia Research Campus Looger Lab Intern</b>—Analyzing protein-synthesis using machine learning</li>
+			</ul>
+
+		</div>
+		<div id="experience-bottom">
+			<div id="languages">
+				<p class="skill-text">Languages</p>
+				<div class="skill-container" id="lang-img-container">
+					<img class="skill-img" src="images/skills/js.png"></img>
+					<img class="skill-img" src="images/skills/python.png"></img>
+					<img class="skill-img" src="images/skills/java.png"></img>
+					<img class="skill-img" src="images/skills/c.png"></img>
+				</div>
+			</div>
+			<div id="libraries">
+				<p class="skill-text">Libraries</p>
+				<div class="skill-container" id="libr-img-container">
+					<img class="skill-img" src="images/skills/keras.png"></img>
+					<img class="skill-img" src="images/skills/sk.png"></img>
+					<img class="skill-img" src="images/skills/opencv.png"></img>
+					<img class="skill-img" src="images/skills/numpy.png"></img>
+				</div>
+			</div>
+			<div id="technologies">
+				<p class="skill-text">Technologies</p>
+				<div class="skill-container" id="tech-img-container">
+					<img class="skill-img" src="images/skills/linux.png"></img>
+					<img class="skill-img" src="images/skills/bash.png"></img>
+					<img class="skill-img" src="images/skills/git.png"></img>
+					<img class="skill-img" src="images/skills/firebase.png"></img>
+					<img class="skill-img" src="images/skills/heroku.png"></img>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="projects">
+		<p id="projects-header">Projects</p>
+		<div class="project-shape project-left">
+			<a href="https://github.com/vbhaip/HelioHex">
+				<div class="project-preview">
+					<svg id="heliohex-svg" width="100%" height="100%" viewBox="0 0 204 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+						<g>
+						<path d="M61.07,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff1800;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M81.355,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#fffd00;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M101.639,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff8200;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M121.924,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#84ff00;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M142.208,0.217l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#00ffc3;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M162.493,35.403l20.284,11.711l0,23.423l-20.284,11.711l-20.285,-11.711l0,-23.423l20.285,-11.711Z" style="fill:#0084ff;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M182.777,70.537l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#9200ff;stroke:#000;stroke-width:0.43px;"/>
+						<path d="M20.501,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff00d9;stroke:#000;stroke-width:0.43px;"/>
+						</g>
+					</svg>
+					<img id="spotify-logo" src="images/spotify.png"></img>
+
+				</div>
+			</a>
+			<div class="project-description">
+				<p class="project-title">HelioHex</p>
+				<p class="project-subtext">A highly-configurable, modular, hexagon-based lighting system that syncs up to music</p>
+
+			</div>
+		</div>
+
+		<div class="project-shape project-right">
+			<a href="https://github.com/vbhaip/gap-crossing-research">
+				<div class="project-preview">
+					<img id="fly-crossing" src="images/fly-crossing.png"></img>
+				</div>
+			</a>
+			<div class="project-description">
+				<p class="project-title">Gap Crossing Research</p>
+				<p class="project-subtext">A machine learning system to understand  decision-making in fruit flies by tracking gap crossing behaviors. Second place Animal Science project in Virginia Science Fair</p>
+
+			</div>
+
+		</div>
 
 
+	</div>
 
-  <div class="top">
-
-    <div id="geartrain">
-
-      <img src="images/gear.svg" id="gear1" data-spirit-id="gear1" draggable="false"></img>
-
-      <img src="images/gear.svg" id="gear2" data-spirit-id="gear2" draggable="false"></img>
-
-      <img src="images/gear.svg" id="gear3" data-spirit-id="gear3" draggable="false"></img>
-    </div>
-
-    <!--SVG for Menu-->
-    <svg class="menu" data-spirit-id="menu" onclick="clickMenu();" width="5em" height="5em" viewBox="0 0 284 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
-      style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.5;">
-        <g transform="matrix(1,0,0,1,-2708.04,-180.537)">
-            <g>
-                <g transform="matrix(0.5,0,0,0.6,1462.5,120)">
-                    <path data-spirit-id="topbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
-                </g>
-                <g transform="matrix(0.5,0,0,0.6,1462.5,210)">
-                    <path data-spirit-id="midbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
-                </g>
-                <g transform="matrix(0.5,0,0,0.6,1462.5,300)">
-                    <path data-spirit-id="botbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
-                </g>
-            </g>
-        </g>
-    </svg>
-
-
-  </div>
-
-  <div id="maincontent">
-
-    <a class="leftnav" href="/about">
-      <img src="images/arrow.svg" class="leftarrow arrow" id="aboutarrow" data-spirit-id="leftarrow" draggable="false"></img>
-      <h2 class="arrowtext" id="about"><span>About me</span></h2>
-    </a>
-
-
-    <div id="maintext">
-      <h1 style="font-weight: 300; font-size: 6vmin">Hi, I'm Vinay Bhaip.</h1>
-      <div id="submaintext">
-        <h3 style="font-weight: 300; font-size: 3.5vmin">I'm a junior at TJHSST, and I love to <b style="font-weight: 700"><span class="typer" id="main" data-words="code.,design.,develop.,learn.,dream." data-colors="white" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span></b></h3>
-      </div>
-      <br />
-      <!-- SVG code for logo, to allow manipulation-->
-      <svg onclick="openMenu();" id="logo" data-spirit-id="logo" width="9em" height="9em" viewBox="0 0 268 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
-        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3;">
-          <g transform="matrix(1,0,0,1,-1497.45,-1586.11)">
-              <g transform="matrix(0.555521,0,0,0.555521,1518.85,1620.69)">
-                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
-                      <path data-spirit-id="rightbox" d="M300.019,818.623L570.036,818.623L570.036,592.424L570.036,198.833L400.025,198.833" style="fill:none;stroke:rgb(217,217,217);stroke-width:11.72px;"/>
-                  </g>
-                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
-                      <path data-spirit-id="leftbox" d="M200.007,194.91L30.002,194.91L30.002,818.623L300.019,818.623" style="fill:none;stroke:rgb(217,217,217);stroke-width:11.72px;"/>
-                  </g>
-                  <g transform="matrix(1,0,0,1,-51.7326,-238.736)">
-                      <path data-spirit-id="v" d="M69.712,368.164L60.009,368.164L190.015,758.211L190.015,739.091L69.712,368.164ZM310.317,368.164L320.02,368.164L216.719,678.091L190.015,758.211L190.015,739.091C190.511,737.562 270.709,490.286 310.317,368.164Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
-                  </g>
-                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
-                      <path data-spirit-id="topB" d="M480.026,458.175L370.022,378.165L370.022,368.164L411.338,399.153L490.026,458.175L370.022,548.186L370.022,538.184L480.026,458.175Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
-                  </g>
-                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
-                      <path data-spirit-id="bottomB" d="M525.861,668.2L370.022,588.19L370.022,578.189L540.028,668.2L370.022,758.211L370.022,748.21L525.861,668.2Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
-                  </g>
-                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
-                      <path data-spirit-id="divider" d="M224.241,757.984L350.312,368.164L360.017,368.164L231.009,757.984L224.241,757.984Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
-                  </g>
-              </g>
-          </g>
-      </svg>
-    </div>
-
-
-    <a href="/projects" class="rightnav">
-      <h2 class="arrowtext" id="projects">Projects</h2>
-      <img src="images/arrow.svg" class="rightarrow arrow" id="projectsarrow" data-spirit-id="rightarrow" draggable="false"></img>
-    </a>
-
-  </div>
-
-
-  <div id="bottom">
-    <div id="resume">
-
-      <a class="largelink" href="/resume.pdf">Resume</a>
-
-    </div>
-    <!--<a href="/contact" class="bottomnav">
-      <h2 class="arrowtext" id="contact">Contact</h2>
-      <img src="images/arrow.svg" class="bottomarrow arrow" id="contactarrow" data-spirit-id="bottomarrow"></img>
-    </a>-->
-
-    <div id="github">
-      <a class="largelink" href="https://www.github.com/vbhaip" target="_blank">GitHub</a>
-
-    </div>
-  </div>
-
-
-  <div class="menuselector">
-    <div class="menuitem">
-      <a href="/about">About me</a>
-    </div>
-    <div class="menuitem">
-      <a href="/index">Home</a>
-    </div>
-    <div class="menuitem">
-      <a href="/projects">Projects</a>
-    </div>
-  </div>
-
+	<div id="contact">
+		<p id="contact_header_message">Contact me!</p>
+		<form
+			id="contactform"
+			action="https://formspree.io/mrgyqkrp"
+			method="POST">
+			<input class="form_element" type="text" name="name" placeholder="Name" required="">
+			</br>
+			<input class="form_element" type="text" placeholder="Email" name="_replyto" required="">
+			</br>
+			<textarea class="form_element" placeholder="Message" name="message" required=""></textarea>
+			</br>
+			<button type="submit"><img src="images/contact-submit.svg"></img></button>
+		</form>
+		<p id="contact_footer">Made with &hearts; | Vinay Bhaip | <a href="https://github.com/vbhaip/vbhaip.github.io" id="source">Source</a></p>
+	</div>
+	<script src="js/main.js"></script>
 </body>
-
-<script src="js/typer.js"></script>
-
-</html>

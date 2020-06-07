@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title>Vinay Bhaip | Home</title>
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/spiritjs/dist/spirit.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    spirit.setup()
+  </script>
+  <script>
+    setLogoInPlace();
+  </script>
+</head>
+
+<body>
+
+
+
+  <div class="top">
+
+    <div id="geartrain">
+
+      <img src="images/gear.svg" id="gear1" data-spirit-id="gear1" draggable="false"></img>
+
+      <img src="images/gear.svg" id="gear2" data-spirit-id="gear2" draggable="false"></img>
+
+      <img src="images/gear.svg" id="gear3" data-spirit-id="gear3" draggable="false"></img>
+    </div>
+
+    <!--SVG for Menu-->
+    <svg class="menu" data-spirit-id="menu" onclick="clickMenu();" width="5em" height="5em" viewBox="0 0 284 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+      style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.5;">
+        <g transform="matrix(1,0,0,1,-2708.04,-180.537)">
+            <g>
+                <g transform="matrix(0.5,0,0,0.6,1462.5,120)">
+                    <path data-spirit-id="topbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
+                </g>
+                <g transform="matrix(0.5,0,0,0.6,1462.5,210)">
+                    <path data-spirit-id="midbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
+                </g>
+                <g transform="matrix(0.5,0,0,0.6,1462.5,300)">
+                    <path data-spirit-id="botbar" d="M3000,150L2550,150" style="fill:rgb(93,93,93);stroke:rgb(93,93,93);stroke-width:75.45px;"/>
+                </g>
+            </g>
+        </g>
+    </svg>
+
+
+  </div>
+
+  <div id="maincontent">
+
+    <a class="leftnav" href="/about">
+      <img src="images/arrow.svg" class="leftarrow arrow" id="aboutarrow" data-spirit-id="leftarrow" draggable="false"></img>
+      <h2 class="arrowtext" id="about"><span>About me</span></h2>
+    </a>
+
+
+    <div id="maintext">
+      <h1 style="font-weight: 300; font-size: 6vmin">Hi, I'm Vinay Bhaip.</h1>
+      <div id="submaintext">
+        <h3 style="font-weight: 300; font-size: 3.5vmin">I'm a junior at TJHSST, and I love to <b style="font-weight: 700"><span class="typer" id="main" data-words="code.,design.,develop.,learn.,dream." data-colors="white" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span></b></h3>
+      </div>
+      <br />
+      <!-- SVG code for logo, to allow manipulation-->
+      <svg onclick="openMenu();" id="logo" data-spirit-id="logo" width="9em" height="9em" viewBox="0 0 268 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3;">
+          <g transform="matrix(1,0,0,1,-1497.45,-1586.11)">
+              <g transform="matrix(0.555521,0,0,0.555521,1518.85,1620.69)">
+                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
+                      <path data-spirit-id="rightbox" d="M300.019,818.623L570.036,818.623L570.036,592.424L570.036,198.833L400.025,198.833" style="fill:none;stroke:rgb(217,217,217);stroke-width:11.72px;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
+                      <path data-spirit-id="leftbox" d="M200.007,194.91L30.002,194.91L30.002,818.623L300.019,818.623" style="fill:none;stroke:rgb(217,217,217);stroke-width:11.72px;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,-51.7326,-238.736)">
+                      <path data-spirit-id="v" d="M69.712,368.164L60.009,368.164L190.015,758.211L190.015,739.091L69.712,368.164ZM310.317,368.164L320.02,368.164L216.719,678.091L190.015,758.211L190.015,739.091C190.511,737.562 270.709,490.286 310.317,368.164Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
+                      <path data-spirit-id="topB" d="M480.026,458.175L370.022,378.165L370.022,368.164L411.338,399.153L490.026,458.175L370.022,548.186L370.022,538.184L480.026,458.175Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
+                      <path data-spirit-id="bottomB" d="M525.861,668.2L370.022,588.19L370.022,578.189L540.028,668.2L370.022,758.211L370.022,748.21L525.861,668.2Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,-50.002,-238.623)">
+                      <path data-spirit-id="divider" d="M224.241,757.984L350.312,368.164L360.017,368.164L231.009,757.984L224.241,757.984Z" style="fill:rgb(217,217,217);fill-rule:nonzero;stroke:rgb(217,217,217);stroke-width:5.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1.41421;"/>
+                  </g>
+              </g>
+          </g>
+      </svg>
+    </div>
+
+
+    <a href="/projects" class="rightnav">
+      <h2 class="arrowtext" id="projects">Projects</h2>
+      <img src="images/arrow.svg" class="rightarrow arrow" id="projectsarrow" data-spirit-id="rightarrow" draggable="false"></img>
+    </a>
+
+  </div>
+
+
+  <div id="bottom">
+    <div id="resume">
+
+      <a class="largelink" href="/resume.pdf">Resume</a>
+
+    </div>
+    <!--<a href="/contact" class="bottomnav">
+      <h2 class="arrowtext" id="contact">Contact</h2>
+      <img src="images/arrow.svg" class="bottomarrow arrow" id="contactarrow" data-spirit-id="bottomarrow"></img>
+    </a>-->
+
+    <div id="github">
+      <a class="largelink" href="https://www.github.com/vbhaip" target="_blank">GitHub</a>
+
+    </div>
+  </div>
+
+
+  <div class="menuselector">
+    <div class="menuitem">
+      <a href="/about">About me</a>
+    </div>
+    <div class="menuitem">
+      <a href="/index">Home</a>
+    </div>
+    <div class="menuitem">
+      <a href="/projects">Projects</a>
+    </div>
+  </div>
+
+</body>
+
+<script src="js/typer.js"></script>
+
+</html>
