@@ -3,10 +3,11 @@
 
 <head>
   <title>Vinay Bhaip</title>
-  <!--<link rel="icon" href="/favicon.ico" />-->
+  <link rel="icon" href="favicon.png"/>
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.0/dist/simpleParallax.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.6"></script>
 </head>
 <body>
 	<nav class="navbar">
@@ -26,8 +27,8 @@
 			</li>
 		</ul>
 	</nav>
-	<div class="topskew">
-		<div class="pfpdiv">
+	<div id="topskew">
+		<div id="pfpdiv">
 			<img id="pfp" src="images/me.png"></img>
 		</div>
 	</div>
@@ -58,32 +59,34 @@
 
 		</div>
 		<div id="experience-bottom">
-			<div id="languages">
-				<p class="skill-text">Languages</p>
-				<div class="skill-container" id="lang-img-container">
-					<img class="skill-img" src="images/skills/js.png"></img>
-					<img class="skill-img" src="images/skills/python.png"></img>
-					<img class="skill-img" src="images/skills/java.png"></img>
-					<img class="skill-img" src="images/skills/c.png"></img>
+			<div id="experience-skill-container">
+				<div id="languages">
+					<p class="skill-text">Languages</p>
+					<div class="skill-container" id="lang-img-container">
+						<img class="skill-img" src="images/skills/js.png"></img>
+						<img class="skill-img" src="images/skills/python.png"></img>
+						<img class="skill-img" src="images/skills/java.png"></img>
+						<img class="skill-img" src="images/skills/c.png"></img>
+					</div>
 				</div>
-			</div>
-			<div id="libraries">
-				<p class="skill-text">Libraries</p>
-				<div class="skill-container" id="libr-img-container">
-					<img class="skill-img" src="images/skills/keras.png"></img>
-					<img class="skill-img" src="images/skills/sk.png"></img>
-					<img class="skill-img" src="images/skills/opencv.png"></img>
-					<img class="skill-img" src="images/skills/numpy.png"></img>
+				<div id="libraries">
+					<p class="skill-text">Libraries</p>
+					<div class="skill-container" id="libr-img-container">
+						<img class="skill-img" src="images/skills/keras.png"></img>
+						<img class="skill-img" src="images/skills/sk.png"></img>
+						<img class="skill-img" src="images/skills/opencv.png"></img>
+						<img class="skill-img" src="images/skills/numpy.png"></img>
+					</div>
 				</div>
-			</div>
-			<div id="technologies">
-				<p class="skill-text">Technologies</p>
-				<div class="skill-container" id="tech-img-container">
-					<img class="skill-img" src="images/skills/linux.png"></img>
-					<img class="skill-img" src="images/skills/bash.png"></img>
-					<img class="skill-img" src="images/skills/git.png"></img>
-					<img class="skill-img" src="images/skills/firebase.png"></img>
-					<img class="skill-img" src="images/skills/heroku.png"></img>
+				<div id="technologies">
+					<p class="skill-text">Technologies</p>
+					<div class="skill-container" id="tech-img-container">
+						<img class="skill-img" src="images/skills/linux.png"></img>
+						<img class="skill-img" src="images/skills/bash.png"></img>
+						<img class="skill-img" src="images/skills/git.png"></img>
+						<img class="skill-img" src="images/skills/firebase.png"></img>
+						<img class="skill-img" src="images/skills/heroku.png"></img>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -91,41 +94,44 @@
 
 	<div id="projects">
 		<p id="projects-header">Projects</p>
-		<div class="project-shape project-left">
-			<a href="https://github.com/vbhaip/HelioHex">
-				<div class="project-preview">
-					<svg id="heliohex-svg" width="100%" height="100%" viewBox="0 0 204 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-						<g>
-						<path d="M61.07,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff1800;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M81.355,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#fffd00;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M101.639,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff8200;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M121.924,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#84ff00;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M142.208,0.217l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#00ffc3;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M162.493,35.403l20.284,11.711l0,23.423l-20.284,11.711l-20.285,-11.711l0,-23.423l20.285,-11.711Z" style="fill:#0084ff;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M182.777,70.537l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#9200ff;stroke:#000;stroke-width:0.43px;"/>
-						<path d="M20.501,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff00d9;stroke:#000;stroke-width:0.43px;"/>
-						</g>
-					</svg>
-					<img id="spotify-logo" src="images/spotify.png"></img>
+		<div id="project-shapes">
+			<div class="project-shape project-left">
+				<a href="https://github.com/vbhaip/HelioHex">
+					<div class="project-preview">
+						<svg id="heliohex-svg" width="100%" height="100%" viewBox="0 0 204 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+							<g>
+							<path d="M61.07,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff1800;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M81.355,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#fffd00;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M101.639,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff8200;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M121.924,35.35l20.284,11.712l0,23.422l-20.284,11.711l-20.285,-11.711l0,-23.422l20.285,-11.712Z" style="fill:#84ff00;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M142.208,0.217l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#00ffc3;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M162.493,35.403l20.284,11.711l0,23.423l-20.284,11.711l-20.285,-11.711l0,-23.423l20.285,-11.711Z" style="fill:#0084ff;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M182.777,70.537l20.285,11.711l0,23.422l-20.285,11.712l-20.284,-11.712l0,-23.422l20.284,-11.711Z" style="fill:#9200ff;stroke:#000;stroke-width:0.43px;"/>
+							<path d="M20.501,70.484l20.285,11.711l0,23.423l-20.285,11.711l-20.284,-11.711l0,-23.423l20.284,-11.711Z" style="fill:#ff00d9;stroke:#000;stroke-width:0.43px;"/>
+							</g>
+						</svg>
+						<img id="spotify-logo" src="images/spotify.png"></img>
+
+					</div>
+				</a>
+				<div class="project-description">
+					<p class="project-title">HelioHex</p>
+					<p class="project-subtext">A highly-configurable, modular, hexagon-based lighting system that syncs up to music</p>
 
 				</div>
-			</a>
-			<div class="project-description">
-				<p class="project-title">HelioHex</p>
-				<p class="project-subtext">A highly-configurable, modular, hexagon-based lighting system that syncs up to music</p>
-
 			</div>
-		</div>
 
-		<div class="project-shape project-right">
-			<a href="https://github.com/vbhaip/gap-crossing-research">
-				<div class="project-preview">
-					<img id="fly-crossing" src="images/fly-crossing.png"></img>
+			<div class="project-shape project-right">
+				<a href="https://github.com/vbhaip/gap-crossing-research">
+					<div class="project-preview">
+						<img id="fly-crossing" src="images/fly-crossing.png"></img>
+					</div>
+				</a>
+				<div class="project-description">
+					<p class="project-title">Gap Crossing Research</p>
+					<p class="project-subtext">A machine learning system to understand  decision-making in fruit flies by tracking gap crossing behaviors. Second place Animal Science project in Virginia Science Fair</p>
+
 				</div>
-			</a>
-			<div class="project-description">
-				<p class="project-title">Gap Crossing Research</p>
-				<p class="project-subtext">A machine learning system to understand  decision-making in fruit flies by tracking gap crossing behaviors. Second place Animal Science project in Virginia Science Fair</p>
 
 			</div>
 
@@ -146,7 +152,7 @@
 			</br>
 			<textarea class="form_element" placeholder="Message" name="message" required=""></textarea>
 			</br>
-			<button type="submit"><img src="images/contact-submit.svg"></img></button>
+			<button id="submit" type="submit"><img src="images/contact-submit.svg"></img></button>
 		</form>
 		<p id="contact_footer">Made with &hearts; | Vinay Bhaip | <a href="https://github.com/vbhaip/vbhaip.github.io" id="source">Source</a></p>
 	</div>

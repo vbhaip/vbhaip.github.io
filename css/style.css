@@ -23,7 +23,7 @@ body{
 }
 	
 
-.topskew{
+#topskew{
 	margin-top: -45vh;
 	padding: 45vh 0;
 	transform: skew(0deg, 20.63deg);
@@ -56,7 +56,7 @@ body{
 }
 .navbar_list li {
 	float: left;
-	padding: 0vh 3vw;
+	padding: 0vh 2vw;
 	font-size: 1.8vmax;
 	color: var(--main-fg-color);
 	margin-top: 2.5vh;
@@ -93,7 +93,7 @@ body{
 }
 
 
-.pfpdiv{
+#pfpdiv{
 	transform: skew(0deg, -20.63deg);
 	transform-origin: right bottom;
 	position: absolute;
@@ -101,11 +101,14 @@ body{
 	right: 0;
 }
 
+
+
+
 #pfp {
 	width: auto;
 	height: 80vmin;
 	opacity: 0;
-	animation: fade-in 1s ease-in-out forwards 0s;
+	animation: fade-in 2s ease-in-out forwards 0s;
 }
 
 .frontmain {
@@ -203,7 +206,7 @@ body{
 	transform: skew(0deg, -26deg);
 	position: absolute;
 	left: -2vw;
-	bottom: -17vh;
+	top: 47vh;
 	display: inline-block;
 }
 
@@ -234,17 +237,17 @@ body{
 }
 
 #timeline li:nth-child(1){
-	margin-left: 15vw;
+	margin-left: 18vw;
 	width: 60vw;
 }
 
 #timeline li:nth-child(2){
-	margin-left: 30vw;
+	margin-left: 36vw;
 	width: 50vw;
 }
 
 #timeline li:nth-child(3){
-	margin-left: 48vw;
+	margin-left: 50vw;
 	width: 40vw;
 }
 
@@ -254,6 +257,14 @@ body{
 
 #experience-bottom {
 	height: 55vh;
+	position: relative;
+	
+}
+
+#experience-skill-container {
+	position: absolute;
+	left: 0;
+	bottom: 2vmax;
 }
 
 
@@ -261,13 +272,14 @@ body{
 #libraries,
 #technologies {
 	margin-left: 2vw;
-	margin-top: -2vh;
+	margin-top: 5vh;
 }
 
 
 .skill-text {
 	color: var(--main-fg-color);
 	font-size: 3vmax;
+	padding-bottom: 0.3vmax;
 }
 
 .skill-img {
@@ -279,9 +291,6 @@ body{
 	margin-top: -4vh;
 }
 
-#languages {
-	margin-top: -25vh;
-}
 
 /*
 #libraries {
@@ -402,7 +411,7 @@ body{
 	height: 30vh;
 }
 
-#contactform button {
+#submit {
 	width: 10vh;
 	background: none;
 	border: none;
@@ -411,6 +420,7 @@ body{
 }
 
 #contact_footer{
+	font-size: 1.3vmax;
 	padding-top: 4vh;
 	position: absolute;
 	width: 50%;
@@ -426,5 +436,94 @@ body{
 
 
 
+@media screen and (max-width: 100vh) {
+	#topskew
+	{
+		transform: skew(0deg, 0deg);
+	}
+	#pfpdiv
+	{
+		transform: skew(0deg, 0deg);
+	}
+	#introtext {
+		font-size: 5vh;
+		padding-top: 0;
+		margin: 0;
+		margin-bottom: 0;
+		margin-top: 7vh;
+	}
+	#experience-top-skew{
+		transform: skew(0deg, 0deg);
+	}
+	#timeline{
+		transform: skew(0deg, 0deg);
+		display: block;
+	}
+	#timeline li{
+		margin-left: 5vw !important;
+		margin-top: 2vh !important;
+		width: 80vw !important;
+	}
+	
+	#timeline li img {
+		width: 4vh;
+		margin: 1vw;
+	}
+	
+
+	#experience-skill-container {
+		left: 6vw;
+		bottom: 2vh;
+	}
+
+	.skill-text {
+		padding-bottom: 3vh;
+	}
+				
+
+	.project-preview {
+		width: 30vw;
+		height: 30vw;
+		display: inline-block;
+		float: left;
+		text-align: center;
+	}
+
+	.project-description {
+		border: .3vw solid var(--main-accent-color);
+		height: 29.4vw;
+		width: 50vw;
+	}
+
+	.project-title {
+		font-size: 2.0vh;
+	}
+
+	.project-subtext {
+		font-size: 1.2vmax;
+		
+	}
+
+	#heliohex-svg {
+		height: 14vw;
+		padding-top: 2vh;
+	}
+
+
+	#spotify-logo {
+		height: 8vw;
+	}
+
+
+	#fly-crossing {
+		height: 30vw;
+	}
+
+	#submit {
+		width: 10vmin;
+		margin-top: 5vh;
+	}
+
+}
 
 
