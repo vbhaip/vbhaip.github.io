@@ -200,6 +200,7 @@ body{
 	background: var(--main-fg-color);
 	position: relative;
 	overflow: hidden;
+	z-index: 2;
 }
 
 #timeline{
@@ -282,9 +283,50 @@ body{
 	padding-bottom: 0.3vmax;
 }
 
-.skill-img {
+.skill-img-container {
 	width: 4.5vmax;
-	padding-right: 3.5vmax;
+	text-align: center;
+	margin-right: 3.5vmax;
+	display: inline-block;
+	position: relative;
+}
+
+.skill-img {
+	height: 4.5vmax;
+	top: 50%;
+	left: 50%;
+}
+
+.skill-img-text {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1vmax;
+	font-weight: bold;
+	color: var(--main-fg-color);
+	opacity: 0;
+}
+
+@keyframes reduce-opacity {
+	0% {opacity:1;}
+	100% {opacity:0.2;}
+}
+
+.skill-img-container:hover > img{
+	animation: reduce-opacity .15s ease-out forwards;
+}
+
+.skill-img-text:hover,
+.skill-img-container:hover > .skill-img-text {
+	opacity: 1;
+}
+
+
+
+/*didn't wanna spend time to figure out how to center it normally, so cheap way out*/
+#sk {
+	margin-left: -2vmax;
 }
 
 .skill-container{
