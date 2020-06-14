@@ -111,9 +111,9 @@ body{
 	animation: fade-in 2s ease-in-out forwards 0s;
 }
 
-.frontmain {
+#frontmain {
 	margin-left: 1.5vw;
-	margin-top: -10vmin;
+	margin-top: -10vh;
 	height: 65vh;
 	opacity: 0;
 	animation: fade-in 1s ease-in-out forwards 2s;
@@ -376,13 +376,21 @@ body{
 	text-align: center;
 }
 
+.project-shape a:hover{
+	opacity: 0.5;
+}
+
+.project-shape a:hover + .project-description{
+	opacity: 0.5;
+}
+
 .project-description {
 	border: .3vmax solid var(--main-accent-color);
 	height: 14.4vmax;
 	width: 40vmax;
 	display: inline-block;
 	float: left;
-	margin-left: -.1vmax;
+	margin-left: -1px;
 	padding-left: 1vmax;
 }
 
@@ -391,6 +399,7 @@ body{
 	margin: 2vmax;
 	margin-top: 10vh;
 }
+
 
 .project-title {
 	font-size: 3vmax;
@@ -487,6 +496,10 @@ body{
 	{
 		transform: skew(0deg, 0deg);
 	}
+	#frontmain {
+		margin-top: 0;
+		height: 55vh;
+	}
 	#introtext {
 		font-size: 5vh;
 		padding-top: 0;
@@ -496,6 +509,7 @@ body{
 	}
 	#experience-top-skew{
 		transform: skew(0deg, 0deg);
+		padding-bottom: 50vh;
 	}
 	#timeline{
 		transform: skew(0deg, 0deg);
@@ -506,7 +520,10 @@ body{
 		margin-top: 2vh !important;
 		width: 80vw !important;
 	}
-	
+
+	#experience-bottom {
+		height: 50vh;
+	}
 	#timeline li img {
 		width: 4vh;
 		margin: 1vw;
