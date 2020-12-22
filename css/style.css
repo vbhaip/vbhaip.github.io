@@ -492,12 +492,15 @@ body{
 	{
 		transform: skew(0deg, 0deg);
 	}
+	.navbar_list li {
+		font-size: 1.6vmax;
+	}
 	#pfpdiv
 	{
 		transform: skew(0deg, 0deg);
 	}
 	#frontmain {
-		margin-top: 0;
+		margin-top: -4vh;
 		height: 55vh;
 	}
 	#introtext {
