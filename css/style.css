@@ -194,8 +194,8 @@ body{
 }
 
 #experience-top-skew{
-	margin-top: -45vh;
-	padding: 45vh 0;
+	margin-top: -47vh;
+	padding: 47vh 0;
 	transform: skew(0deg, 26deg);
 	background: var(--main-fg-color);
 	position: relative;
