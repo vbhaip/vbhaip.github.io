@@ -349,7 +349,7 @@ body{
 
 
 #projects {
-	height: 100vh;
+	height: 170vh;
 	width: 100vw;
 }
 
@@ -412,7 +412,7 @@ body{
 }
 
 .project-right {
-	float: right
+	margin-left: 40vw;
 }
 
 #heliohex-svg {
@@ -420,6 +420,9 @@ body{
 	padding-top: 2vmax;
 }
 
+#heliohex {
+	height: 15vmax;
+}
 
 #spotify-logo {
 	height: 4vmax;
@@ -429,6 +432,13 @@ body{
 	height: 15vmax;
 }
 
+#tileflip {
+	height: 15vmax;
+}
+
+#seizuresight {
+	height: 15vmax;
+}
 
 
 #contact {
@@ -541,11 +551,15 @@ body{
 	.skill-text {
 		padding-bottom: 3vh;
 	}
+
+	#projects { 
+		height: 120vh
+	}
 				
 
 	.project-preview {
-		width: 30vw;
-		height: 30vw;
+		width: 24vw;
+		height: 24vw;
 		display: inline-block;
 		float: left;
 		text-align: center;
@@ -553,7 +567,7 @@ body{
 
 	.project-description {
 		border: .3vw solid var(--main-accent-color);
-		height: 29.4vw;
+		height: 23.4vw;
 		width: 50vw;
 	}
 
@@ -566,11 +580,19 @@ body{
 		
 	}
 
+	.project-right {
+		margin: 2vmax;
+		margin-top: 10vh;
+	}
+
 	#heliohex-svg {
 		height: 14vw;
 		padding-top: 2vh;
 	}
 
+	#heliohex {
+		height: 24vw;
+	}
 
 	#spotify-logo {
 		height: 8vw;
@@ -578,7 +600,15 @@ body{
 
 
 	#fly-crossing {
-		height: 30vw;
+		height: 25vw;
+	}
+
+	#tileflip {
+		height: 24vw;
+	}
+
+	#seizuresight {
+		height: 24vw;
 	}
 
 	#submit {
