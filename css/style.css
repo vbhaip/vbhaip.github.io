@@ -349,7 +349,7 @@ body{
 
 
 #projects {
-	height: 170vh;
+	height: 200vh;
 	width: 100vw;
 }
 
@@ -430,6 +430,12 @@ body{
 
 #fly-crossing {
 	height: 15vmax;
+}
+
+#rcv{
+	height: 15vmax;
+	width: 25vmax;
+	margin-left: -8vmax;
 }
 
 #tileflip {
@@ -553,7 +559,7 @@ body{
 	}
 
 	#projects { 
-		height: 120vh
+		height: 140vh
 	}
 				
 
@@ -601,6 +607,12 @@ body{
 
 	#fly-crossing {
 		height: 25vw;
+	}
+
+	#rcv{
+		height: 25vw;
+		width: 35vw;
+		margin-left: -8vw;
 	}
 
 	#tileflip {
